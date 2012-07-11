@@ -110,8 +110,6 @@ Upon changes regarding Files, the eventual commit is triggered and therefor the 
 
 If anyone has a cleaner approach, please let me know! :-)
 
-Another caveat is that currently the module only supports one shadow_cib. This is due to the HERE-document approach for the atomic change of the cib via a shadow_cib - the potential fix I have in mind involes a lot of denormalization and therefor unnecessary redundancy - again suggestions welcome! :-)
-
 Copyright and License
 ---------------------
 
