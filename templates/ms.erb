@@ -1,0 +1,4 @@
+crm<<EOF
+cib use <%= scope.lookupvar('shadow_cib') %>
+configure ms <%= scope.lookupvar('name') %> <%= scope.lookupvar('rsc') %> meta <%= scope.lookupvar('meta') %>
+EOF

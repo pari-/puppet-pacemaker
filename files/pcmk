@@ -1,0 +1,7 @@
+#
+# this file is managed by puppet!
+#
+service {
+        name: pacemaker
+        ver: 0
+}

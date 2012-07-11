@@ -1,0 +1,4 @@
+crm<<EOF
+cib use <%= scope.lookupvar('shadow_cib') %>
+configure colocation <%= scope.lookupvar('name') %> <%= scope.lookupvar('score') %>: <%= scope.lookupvar('resources') %>
+EOF

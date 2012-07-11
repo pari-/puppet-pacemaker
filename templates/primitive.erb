@@ -1,0 +1,4 @@
+crm<<EOF
+cib use <%= scope.lookupvar('shadow_cib') %>
+configure primitive <%= scope.lookupvar('name') %> <%= scope.lookupvar('provider') %> params <%= scope.lookupvar('params') %> op <%= scope.lookupvar('op') %>
+EOF
