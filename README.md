@@ -110,6 +110,11 @@ Upon changes regarding Files, the eventual commit is triggered and therefor the 
 
 If anyone has a cleaner approach, please let me know! :-)
 
+Testreport
+==========
+Tested with Debian Squeeze 6.0.5 and pacemaker (=1.1.7-1~bpo60+1)
+
+
 Copyright and License
 ---------------------
 

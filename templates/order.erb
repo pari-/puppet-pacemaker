@@ -1,3 +1,7 @@
+#
+# this file is managed by puppet!
+#
+
 crm<<EOF
 cib use <%= scope.lookupvar('shadow_cib') %>
 configure order <%= scope.lookupvar('name') %> <%= scope.lookupvar('score') %>: <%= scope.lookupvar('resources') %>
